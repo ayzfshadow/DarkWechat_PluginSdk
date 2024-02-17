@@ -1,0 +1,26 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'ayzf.mcsq.dw.plugin'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'ayzf.mcsq.dw.plugin'
+        minSdk 21
+        targetSdk 34
+        versionCode 20220625
+        versionName '20240211'
+
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildFeatures {
+        aidl true
+    }
+}
