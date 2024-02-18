@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="DarkWechat_PluginSdk:jar">
+  <artifact type="jar" build-on-make="true" name="DarkWechat_PluginSdk:jar">
     <output-path>$PROJECT_DIR$/out</output-path>
     <root id="archive" name="DarkWechat_PluginSdk.jar">
       <element id="module-output" name="DarkWechat_PluginSdk.app.main" />

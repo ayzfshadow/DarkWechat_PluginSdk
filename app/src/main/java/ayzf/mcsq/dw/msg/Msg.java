@@ -4,7 +4,7 @@ package ayzf.mcsq.dw.msg;
  * @Author 暗影之风
  * @CreateTime 2024-02-17 19:09:09
  * @Description 消息类型
- * @noinspection JavadocDeclaration
+ * @noinspection JavadocDeclaration, unused
  */
 public class Msg
 {
@@ -26,4 +26,12 @@ public class Msg
     public static final String MSGTYPE_SHARECARD = String.valueOf(42);
     public static final String MSGTYPE_SYS = String.valueOf(10000);
     public static final String MSGTYPE_RECALLED = String.valueOf(10002);
+
+    public static final String SYSTEM_ACCOUNT = "Account";
+    public static final String SYSTEM_ISSEND = "IsSend";
+    public static final String SYSTEM_ISCHATROOM = "IsChatRoom";
+    public static final String SYSTEM_SENDID = "SendId";
+    public static final String SYSTEM_CHATROOMSENDID = "ChatRoomSendId";
+    public static final String SYSTEM_MSGTYPE = "MsgType";
+    public static final String SYSTEM_MSGTEXT = "MsgText";
 }
